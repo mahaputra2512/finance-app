@@ -1,30 +1,81 @@
-# Personal finance app
+# Finance App
 
-*Automatically synced with your [v0.app](https://v0.app) deployments*
+**Finance App**  
+A modern financial management tool to help users manage their personal finances effectively.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/mahaputra2512s-projects/v0-personal-finance-app-d5)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/projects/5vF6ktEDBpV)
+---
 
-## Overview
+## Deskripsi
+Finance App adalah aplikasi berbasis web yang dirancang untuk menyederhanakan pengelolaan keuangan pribadi. Aplikasi ini menyediakan alat untuk melacak pemasukan, pengeluaran, anggaran, serta memberikan wawasan finansial. Dengan dashboard yang ramah pengguna, grafik interaktif, dan komponen yang dapat dikustomisasi, pengguna dapat merasakan pengalaman yang lebih efisien dalam mengelola keuangan mereka.
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
+---
 
-## Deployment
+## Teknologi yang Digunakan
+- **Frontend:**
+  - Framework: Next.js (React-based)
+  - Bahasa: TypeScript
+  - Styling: CSS, PostCSS
+- **Backend:**
+  - Database: Supabase (PostgreSQL)
+  - Middleware: Custom middleware untuk autentikasi dan pengolahan data
+- **Tools:**
+  - Package Manager: PNPM
+  - Konfigurasi: TypeScript, PostCSS, dan Next.js
 
-Your project is live at:
+---
 
-**[https://vercel.com/mahaputra2512s-projects/v0-personal-finance-app-d5](https://vercel.com/mahaputra2512s-projects/v0-personal-finance-app-d5)**
+## Fitur Utama
+1. **Autentikasi**
+   - Halaman login dan registrasi pengguna
+   - Middleware untuk validasi pengguna
+2. **Dashboard**
+   - Ringkasan analitik keuangan
+   - Manajemen anggaran
+   - Pelacakan transaksi
+3. **Grafik Interaktif**
+   - Grafik pemasukan dan pengeluaran
+   - Visualisasi wawasan finansial
+4. **Komponen Reusable**
+   - Komponen UI seperti tombol, kartu, dialog, dan grafik
+5. **Integrasi Database**
+   - SQL script bawaan untuk pembuatan tabel dan data seeding
 
-## Build your app
+---
 
-Continue building your app on:
+## Instruksi Instalasi
+a. **Clone Repository**
+   ```
+   git clone https://github.com/mahaputra2512/finance-app.git
+   cd finance-app
+```
+b. **Instalasi Dependency**
 
-**[https://v0.app/chat/projects/5vF6ktEDBpV](https://v0.app/chat/projects/5vF6ktEDBpV)**
+```pnpm install```
+c. **Setup Environment Variables**
 
-## How It Works
+Buat file .env.local di direktori root.
 
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+Tambahkan variabel environment yang dibutuhkan untuk Supabase dan konfigurasi lainnya.
+
+d. **Jalankan Development Server**
+```pnpm dev```
+
+e. **Akses Aplikasi**
+
+Buka browser dan navigasikan ke http://localhost:3000
+
+## Dukungan AI
+### 🚀 Pengembangan Cepat dengan v0
+- Membantu menghasilkan kode otomatis.  
+- Menyediakan antarmuka visual untuk mempercepat proses pembangunan aplikasi.  
+- Mendukung integrasi database (Supabase) dan komponen UI responsif.  
+- AI berupa chatbot digunakan selama proses pengembangan.  
+
+### 🌐 Deployment Otomatis di Vercel
+- Setiap perubahan di repository langsung ter-deploy.  
+- Hosting cepat, aman, dan mendukung CI/CD.  
+- Membantu menjaga alur kerja pengembangan yang efisien.  
+
+### 🤖 IBM Granite
+- Digunakan dalam proses *brainstorming* untuk menentukan fitur aplikasi pencatatan keuangan.  
+- Memberikan saran kontekstual sehingga fitur yang dipilih lebih relevan dengan kebutuhan pengguna.  
