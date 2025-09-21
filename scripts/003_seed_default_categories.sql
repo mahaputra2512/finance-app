@@ -1,0 +1,3 @@
+-- This script will be run after user authentication is set up
+-- It creates default categories for new users
+-- Note: This will be handled in the application code to ensure proper user context
